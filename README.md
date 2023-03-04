@@ -1,5 +1,5 @@
 # Projet Smartcities
-Le projet Smartcities est 
+Dans ce github on va voir comment utiliser les différents composants qui sont présents dans le Grove Starter Kit of Raspberry Pi Pico. Afin d'utiliser ces composants on se servira d'un Raspberry Pi Pico W où on fera du microPython à l'aide de l'IDE Thonny.
 
 Lien vers les sous-répertoires pour le projet :                                                                                                                                 
 - [GPIO](GPIO) : LED simple, bouton-poussoir, interruption.                                                                                        
@@ -9,7 +9,7 @@ Lien vers les sous-répertoires pour le projet :
 - [Sensors](sensors) : température et humidité, luminosité, PIR.                                              
 - [Network](network) : Accès réseau avec le RPi Pico.   
 
-## Raspberry Pi Pico W                                                                                                                                                                                                                                        
+## Raspberry Pi Pico W                                                                                                                                                         
 Le Raspberry Pi Pico W a été conçu pour être une plate-forme de développement à faible coût. C'est un microcontrôleur facile utiliser avec la programmation en utilisant MicroPython. On peut aussi s'en servir avec une connexion sans fil.
 ![215263828-670ae9c1-3d4e-4bfa-a0dd-d2cfe9a20086](https://user-images.githubusercontent.com/124890653/222923816-5105b172-7b77-4d11-bca6-92ee978b5715.png)                                                                                               
 L'image ci-dessus nous montre le shcéma du brochage du Raspberry Pi Pico W, on peut y voir:
@@ -23,4 +23,8 @@ L'image ci-dessus nous montre le shcéma du brochage du Raspberry Pi Pico W, on 
 Information complémentaires :           
 - 264 Ko SRAM, et 2 Mo de mémoire Flash embarquée.                   
 - Utilise une interface sans fil de 2.4GHz (802.11n).
+
+## MicroPython                                                                 
+MicroPython est un langage de programmation qui provient du langage de programmation Python 3  mais en version plus légère et efficace et elle inclut un petit sous-ensemble de la bibliothèque standard Python et est optimisée pour fonctionner sur des microcontrôleurs.    
+Pour l'utiliser sur le Raspberry Pico W, il faut connecter le Raspbeery sur le PC tout en restant appuyé sur le bouton boot du Raspberry et le dossier du périphérique va s'ouvrir sur votre PC (si ce n'est pas le cas vous pouvez y accéder depuis vos dossiers). Puis, il faut ouvrir le fichier "INDEX.HTM" qui va ouvrir un site et sur ce il faut télécharger le Micropyhton et de le glisser dans le fichier du Raspberry.
 
