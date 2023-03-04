@@ -1,5 +1,5 @@
 # Projet Smartcities
-Dans ce github on va voir comment utiliser les différents composants qui sont présents dans le Grove Starter Kit of Raspberry Pi Pico. Afin d'utiliser ces composants on se servira d'un Raspberry Pi Pico W où on fera du microPython à l'aide de l'IDE Thonny.
+Dans ce github on va voir comment utiliser les différents composants qui sont présents dans le Grove Starter Kit of Raspberry Pi Pico. Afin d'utiliser ces composants on se servira d'un Raspberry Pi Pico W qui sera connecté au shield Grove où on fera du microPython à l'aide de l'IDE Thonny.
 
 Lien vers les sous-répertoires pour le projet :                                                                                                                                 
 - [GPIO](GPIO) : LED simple, bouton-poussoir, interruption.                                                                                        
@@ -25,6 +25,13 @@ Information complémentaires :
 - Utilise une interface sans fil de 2.4GHz (802.11n).
 
 ## MicroPython                                                                 
-MicroPython est un langage de programmation qui provient du langage de programmation Python 3  mais en version plus légère et efficace et elle inclut un petit sous-ensemble de la bibliothèque standard Python et est optimisée pour fonctionner sur des microcontrôleurs.    
+MicroPython est un langage de programmation qui provient du langage de programmation Python 3  mais en version plus légère et efficace et elle inclut un petit sous-ensemble de la bibliothèque standard Python et est optimisée pour fonctionner sur des microcontrôleurs.   
+
 Pour l'utiliser sur le Raspberry Pico W, il faut connecter le Raspbeery sur le PC tout en restant appuyé sur le bouton boot du Raspberry et le dossier du périphérique va s'ouvrir sur votre PC (si ce n'est pas le cas vous pouvez y accéder depuis vos dossiers). Puis, il faut ouvrir le fichier "INDEX.HTM" qui va ouvrir un site et sur ce il faut télécharger le Micropyhton et de le glisser dans le fichier du Raspberry.
 
+## Thonny
+Thonny un IDE (environnement de travail) qui est facile à utiliser pour programmer sous le langage Python ou Micropython dans notre cas. Il est aussi facile à télécharger et à mettre en place pour un usage rapide.         
+
+Pour utiliser MicroPython sur cette IDE, il suffit d'aller dans Tools->Options->Interpreter et choisir MicroPython (Raspberry Pi Pico).
+
+##Composants
