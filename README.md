@@ -1,4 +1,1 @@
 # smartcities
-fdsplfdscsmvl
-# Test
-vsfd
