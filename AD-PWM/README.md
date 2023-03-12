@@ -6,7 +6,7 @@ Une PWM est un signal d'impulsion qui est un signal numérique. Ce signal n'a qu
 Le signal PWM est défini par 3 composants : cyle, duty cycle et fréquence. Le cycle est la période pour que le signal d'impulsion passe par l'état haut à l'état bas. Le duty cycle montre le pourcentage de temps où il reste à l'état haut (sur l'image, on voit en haut qu'il est de 50% et en bas de 10%). Et la fréquence montre le nombre de cycle par seconde.              
 À partir du signal PWM on peut en faire un signal analogique en changeant le duty cycle de la PWM. Par exemple sur l'image on peut voir qu'on arrive à faire varier la luminosité de la Led en fonction du duty cycle, lorsque le duty cycle est faible la luminsoité de la Led est faible et plus on augmente le duty cycle plus la led sera brillante (voir sous-titre "Changement de luminosité de la Led" pour le fonctionnement).
 
-![pwm](https://user-images.githubusercontent.com/124890653/224550594-1cd5d8bb-d064-4920-bc4b-c0aac1371a16.png)
+
 
 
 ## Potentiomètre
