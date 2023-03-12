@@ -7,6 +7,14 @@ Avec le programme : [Kit_LED](Kit_LED.py), on fait clignoter une led toutes les 
 Pour que la led soit allumée ou éteinte il faut que l'état de la led soit à 1 ou 0 et pour changer cette état on utilise led.toggle() qui permet de changer l'état (donc si la led est à 1, elle passera à 0 et inversément).
 
 
+https://user-images.githubusercontent.com/124890653/224558210-f041dba5-352e-4497-9850-2ca65f5e8443.mp4
+
+
+
 ## Bouton                                                           
 Avec le programme : [Kit_LED_and_Button](Kit_LED_and_Button.py), on utilise un bouton pour allumer une led ou l'éteindre. Il suffit d'appuyer une fois pour changer l'état de la led. Pour cela, on met dans une boucle while pour regarder constament la valeur du bouton à l'aide de la méthode ".value" et quand on appuyera sur le bouton, sa valeur va passer de 0 à 1 et le programme pourra executer ce qu'il y a dans le if pour changer l'état de la led.                   
+
+
+
+https://user-images.githubusercontent.com/124890653/224558216-a2baa481-2c04-464d-aa1b-0c1e43f67e53.mp4
 
