@@ -13,7 +13,11 @@ Le signal PWM est défini par 3 composants : cyle, duty cycle et fréquence. Le 
 Avec le programme : [Kit_Potentiomètre](Kit_LED.py), on lit les valeur de la pin A0 (où est connecté le potentiomètre) indéfinement à l'aide de la boucle while. Pour lire ces valeurs on utilise "read_u16" qui permet de lire la valeur analogue entre 0 et 65535 car c'est en 16 bits non signé. Puis, avec "print" on affiche dans la console la valeur lue. On fait ca en boucle toute les 500ms avec sleep_ms qui stoppe le programme.
 
 
-https://user-images.githubusercontent.com/124890653/224558378-0720367f-13ab-4c83-a069-f42081fc4715.mp4
+
+
+https://user-images.githubusercontent.com/124890653/224558597-f9624105-a7fe-4ea2-a95c-a9e4ae9802e3.mp4
+
+
 
 
 ## Allumer une Led à l'aide d'un potentiomètre                                     
