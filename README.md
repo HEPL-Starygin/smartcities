@@ -33,3 +33,6 @@ Pour l'utiliser sur le Raspberry Pico W, il faut connecter le Raspbeery sur le P
 Thonny un IDE (environnement de travail) qui est facile à utiliser pour programmer sous le langage Python ou Micropython dans notre cas. Il est aussi facile à télécharger et à mettre en place pour un usage rapide.         
 
 Pour utiliser MicroPython sur cette IDE, il suffit d'aller dans Tools->Options->Interpreter et choisir MicroPython (Raspberry Pi Pico).
+
+## Grove 
+Pour chaque composants qu'on utilise dans les différents programme viennent  du [Grove Starter Kit of Raspberry Pi Pico](https://www.seeedstudio.com/Grove-Starter-Kit-for-Raspberry-Pi-Pico-p-4851.html). Dans le kit on retrouve aussi le Grove shield où on peut connecter le raspberry via les pins, ce shield sert à faciliter le branchement entre les composants et le Raspberry Pi Pico W.
