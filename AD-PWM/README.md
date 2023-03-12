@@ -8,8 +8,5 @@ Le signal PWM est défini par 3 composants : cyle, duty cycle et fréquence. Le 
 ![pwm](https://user-images.githubusercontent.com/124890653/224550594-1cd5d8bb-d064-4920-bc4b-c0aac1371a16.png)
 
 
-
-
-
 ## Potentiomètre
 Avec le programme : [Kit_Potentiomètre](Kit_LED.py),
