@@ -8,4 +8,5 @@ Pour que la led soit allumée ou éteinte il faut que l'état de la led soit à 
 
 
 ## Bouton                                                           
-Avec le programme : [Kit_LED_and_Button](Kit_LED_and_Button.py), on utilise un bouton pour allumer une led ou l'éteindre. Il suffit d'appuyer une fois pour changer l'état de la led. Pour cela, on regarde constament la valeur du bouton à l'aide d'une boucle while et quand on appuyera sur le bouton, sa valeur va passer de 0 à 1 et le programme pourra executer ce qu'il y a dans le if pour changer l'état de la led.
+Avec le programme : [Kit_LED_and_Button](Kit_LED_and_Button.py), on utilise un bouton pour allumer une led ou l'éteindre. Il suffit d'appuyer une fois pour changer l'état de la led. Pour cela, on met dans une boucle while pour regarder constament la valeur du bouton à l'aide de la méthode ".value" et quand on appuyera sur le bouton, sa valeur va passer de 0 à 1 et le programme pourra executer ce qu'il y a dans le if pour changer l'état de la led.                   
+
