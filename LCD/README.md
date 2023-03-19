@@ -6,8 +6,23 @@ Dans cette partie on va voir comment utiliser l'écran LCD. Dans les fichiers .p
 Les afficheurs LCD (Liquid Crystal Display) utilisent des cristaux liquides pour pouvoir afficher des images, du texte (pour nous). Lorsque ces cristaux liquides sont affectés par un champ électrique les molécules vont changer de direction, ainsi ça va changer l'indice de réfraction du cristal liquide et va changer la direction par où passe la lumière. L'affichage final sur l'afficheur peut être déterminé tant qu'il y a un polariseur pour filtrer la lumière indésirable. Dans un écran LCD, on a aussi besoin d'un rétro-éclairage qui servira comme source de lumière pour pouvoir afficher.                                                      
 On se sert du "The Grove - 16 x 2 LCD" comme écran LCD, il permet dafficher 16 caractères par ligne et il y a 2 lignes. Chaque caractère est composée de 5 colonnes et 8 lignes de carré, ce sont ces carrées qu'on allume ou pas pour pouvoir afficher ce que l'on veut sur le caractère.
 
-## Description des méthodes du modules lcd1602.py                                   
-
+## Description des méthodes du modules lcd1602.py                                             
+Dans le module [lcd1602](lcd1602.py), on retrouve plusieurs méthodes dans les classes LCD1602 et LCD1602_RGB :
+- __init__: Il prend les paramètre de l'I2C, du nombre de ligne et le nombre de caractères.
+- clear(): Il efface l'affichage et postitionne le curseur à 0.
+- home(): Il remet la postion du curseur à 0.
+- setCursor(): Il permet de choisir la position du curseur avec la ligne et la colonne.
+- no_display()/display(): Il permet de désactiver/activer l'affichage.
+- no_cursor()/cursor(): Il permet de désactiver/activer le curseur.
+- no_blink()/blink() : Il permet de désactiver/activer le clignotement du curseur.
+- autoscroll()/no_autoscroll() : Il permet de désactiver/activer le défilement automatique.     
+- createChar(): Il permet de créer un caractère spécial.
+- command() : Il permet d'envoyer une commande à l'afficheur LCD.
+- write():  Il permet d'écrire un caractère grâce à la valeur qu'on met.
+- print(): Il permet d'afficher du texte sur l'afficheur LCD.
+- set_reg(): Il permet d'écrire une valeur dans un registre spécifique.
+- set_rgb(): Il permet de régler la couleur du rétro-éclairage en choisissant les valeurs RGB.
+- setColor(): Il permet de choisir la couleur du rétr-éclairage parmi 4 couleur.
 
 ## Affichage sur un LCD                                                         
 
