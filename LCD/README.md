@@ -8,7 +8,7 @@ On se sert du "The Grove - 16 x 2 LCD" comme écran LCD, il permet dafficher 16 
 
 ## Description des méthodes du modules lcd1602.py                                             
 Dans le module [lcd1602](lcd1602.py), on retrouve plusieurs méthodes dans les classes LCD1602 et LCD1602_RGB :
-- __init__: Il prend les paramètre de l'I2C, du nombre de ligne et le nombre de caractères.
+- init() : Il prend les paramètre de l'I2C, du nombre de ligne et le nombre de caractères.
 - clear(): Il efface l'affichage et postitionne le curseur à 0.
 - home(): Il remet la postion du curseur à 0.
 - setCursor(): Il permet de choisir la position du curseur avec la ligne et la colonne.
