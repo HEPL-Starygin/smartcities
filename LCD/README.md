@@ -1,4 +1,13 @@
 # LCD
+Dans cette partie on va voir comment utiliser l'écran LCD. Dans les fichiers .py, il y aura la description de ce que fais chaque ligne de code.                                   
+
+## Description afficheur LCD                                                     
+
+Les afficheurs LCD (Liquid Crystal Display) utilisent des cristaux liquides pour pouvoir afficher des images, du texte (pour nous). Lorsque ces cristaux liquides sont affectés par un champ électrique les molécules vont changer de direction, ainsi ça va changer l'indice de réfraction du cristal liquide et va changer la direction par où passe la lumière. L'affichage final sur l'afficheur peut être déterminé tant qu'il y a un polariseur pour filtrer la lumière indésirable. Dans un écran LCD, on a aussi besoin d'un rétro-éclairage qui servira comme source de lumière pour pouvoir afficher.                                                      
+On se sert du "The Grove - 16 x 2 LCD" comme écran LCD, il permet dafficher 16 caractères par ligne et il y a 2 lignes. Chaque caractère est composée de 5 colonnes et 8 lignes de carré, ce sont ces carrées qu'on allume ou pas pour pouvoir afficher ce que l'on veut sur le caractère.
+
+## Description des méthodes du modules lcd1602.py                                   
+
 
 ## Affichage sur un LCD                                                         
 
@@ -9,7 +18,7 @@ Pour cela, on utilise un I2C pour la communication entre la Raspberry et le LCD.
 
 ## Affichage de la position angulaire d'un potentiomètre sur un LCD                       
 
-Avec le programme : [Kit_LCD_and_Potentiometre](Kit_LCD_and_Potentiometre.py), on affiche sur l'écran LCD d'abord "Angle = " puis la valeur angulaire du potentiomètre en 16 bits non signés et à la fin on affiche "°" pour dire que c'est des degrés.                                      
+Avec le programme : [Kit_LCD_and_Potentiometre](Kit_LCD_and_Potentiometre.py), on affiche sur l'écran LCD d'abord "Angle = " puis la valeur angulaire du potentiomètre à l'aide d'un calcul dans le code et à la fin on affiche "°" pour dire que c'est des degrés.                                      
 Pour cela, on fait comme dans le programme précédent pour pouvoir afficher ce que l'on veut sur le LCD. Puis, pour lire les valeurs du potentiomètre et comment ça fonctionne on peut re-utiliser les codes qui sont [ici](https://github.com/HEPL-Starygin/smartcities/tree/main/AD-PWM), pour l'afficher sur le LCD on convertir la valeur lu du potentiomètre en string. Et pour faire un "°" on utilise d.write au lieu de d.print car si on utilise le d.print il convertit le code binaire en décimal mais d.write permet d'envoyer ce code binaire qui correspond au caractère "°". Pour savoir quelle code binaire il faut utiliser, il suffit d'aller voir à la page 14 de ce [pdf](https://www.waveshare.com/datasheet/LCD_en_PDF/LCD1602.pdf) où l'on voit que "°" correspond à "11011111".
 
 
