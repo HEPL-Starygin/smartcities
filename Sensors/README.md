@@ -20,4 +20,13 @@ Avec le programme : [Alarm_temp_or_hum](Alarm_temp_or_hum.py), on fait exactemen
 
 https://user-images.githubusercontent.com/124890653/229843503-73bc6ada-d563-4b9b-aa18-86a17cb54f5d.mp4
 
+## Ventilateur automatique en fonction de la température                           
+Avec le programme : [temparature_sensing_intelligent_Fan](temparature_sensing_intelligent_Fan.py), on fait exactement la même chose que le 1er programme  sauf qu'ici on rajoute un mini ventilateur qui s'active si il fait plus de 22.8°C.
+
+Pour cela, on lit cette fois ci juste la valeur de la température vu qu'on n'a pas besoin de l'humidité grâce à "dht.readTemperature()". Puis, on regarde toute les 0.8sec si la valeur de la température dépasse les 22.8°C avec un if et si c'est le cas il va rentrer dans le if et allumer le mini ventilateur en mettant un 1 comme valeur à la pin du ventilateur.
+
+
+
+https://user-images.githubusercontent.com/124890653/229849684-c24c37fb-729f-49ba-8a65-e5fb9495f161.mp4
+
 
