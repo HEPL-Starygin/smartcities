@@ -6,8 +6,8 @@ Lien vers les sous-répertoires pour le projet :
 - [AD-PWM](AD-PWM) : lecture du potentiomètre, PWM (LED, musique, servo).                                                                           
 - [LCD](LCD) : utilisation d'un écran LCD et affichage de certaines valeurs.                                              
 - [LED_neo](LED_neo) : utilisation des LEDs néopixel.                                     
-- [Sensors](sensors) : DHT11(température et humidité), microphone, luminosité et PIR.                                              
-- [Network](network) : Accès réseau avec le RPi Pico.   
+- [Sensors](Sensors) : DHT11(température et humidité), microphone, luminosité et PIR.                                              
+- [Network](Network) : Accès réseau avec le RPi Pico.   
 
 ## Raspberry Pi Pico W                                                                                                                                                         
 Le Raspberry Pi Pico W a été conçu pour être une plate-forme de développement à faible coût. C'est un microcontrôleur facile utiliser avec la programmation en utilisant MicroPython. On peut aussi s'en servir avec une connexion sans fil.
