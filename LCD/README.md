@@ -39,5 +39,9 @@ Pour cela, on fait comme dans le programme précédent pour pouvoir afficher ce 
 
 https://user-images.githubusercontent.com/124890653/226186901-2806e572-0c65-4941-9b47-3f5c338da656.mp4
 
+## Affichage de la date et du temps sur un LCD                                         
 
+Avec le programme : [Kit_LCD_datetime](Kit_LCD_datetime.py), on affiche sur l'écran LCD la date sur la 1ère ligne et le temps en heure, minute et seconde sur la 2ème ligne.
+
+Pour cela, on fait la même chose que les 2 codes précèdent sauf qu'ici on va aussi utiliser RTC qui est une horloge indépendante qui suit la date et le temps. C'est grâce a ça qu'on arrive à afficher la date et le temps. Lorsque qu'on utilise RTC().datetime(), cela va renvoyer 8 tuples qui sont dans un "tableau" dans cette ordre: Année, mois, jour, semaine, heures, minutes, secondes, sous-secondes. Il ne reste plus qu'à sélectionner quelle donnée on veut pour le mettre sur le LCD en faisant "str(RTC().datetime()[1]" si on veut le mois par exemple.
 
