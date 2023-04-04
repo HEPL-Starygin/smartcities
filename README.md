@@ -5,7 +5,7 @@ Lien vers les sous-répertoires pour le projet :
 - [GPIO](GPIO) : LED simple, bouton-poussoir, interruption.                                                                                        
 - [AD-PWM](AD-PWM) : lecture du potentiomètre, PWM (LED, musique, servo).                                                                           
 - [LCD](LCD) : utilisation d'un écran LCD et affichage de certaines valeurs.                                              
-- [LED_neo](LED_neo) : utilisation des LEDs néopixel.                                     
+- [LED_NEO](LED_NEO) : utilisation des LEDs néopixel.                                     
 - [Sensors](Sensors) : DHT11(température et humidité), microphone, luminosité et PIR.                                              
 - [Network](Network) : Accès réseau avec le RPi Pico.   
 
