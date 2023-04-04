@@ -30,3 +30,9 @@ Pour cela, on lit cette fois ci juste la valeur de la température vu qu'on n'a 
 https://user-images.githubusercontent.com/124890653/229849684-c24c37fb-729f-49ba-8a65-e5fb9495f161.mp4
 
 
+## Sound detector
+Avec le programme : [Kit_sound](Kit_sound.py), on afficher dans l'IDE la valeur du son obtenue après avoir fais une moyenne car si on affiche juste le son sans moyenne on verra qu'il ne sera pas stable.
+Pour pouvoir l'afficher on assigne le capteur à la pin ADC(1) et on lira ces valeurs sous 16 bits non signés à l'aide de Sound_SENSOR.read_u16 qu'on va diviser par 256 pour les prochains code. Toute les 0.2sec on va faire la moyenne de 1000 son obtenu à l'aide d'un for qui va de i à 1000. Puis il ne reste plus qu'à diviser par 1000 la valeur obtenue à la fin et de la print pour l'afficher.
+
+https://user-images.githubusercontent.com/124890653/229854868-9b729cb3-7d30-436b-8883-5c9b0347a420.mp4
+
