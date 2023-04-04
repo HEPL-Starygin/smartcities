@@ -15,8 +15,9 @@ https://user-images.githubusercontent.com/124890653/229843489-3b398601-8484-4e74
 
 ## ALarme                                                                                  
 
-Avec le programme : [Alarm_temp_or_hum](Alarm_temp_or_hum.py), on fait exactement la même chose que le programme précèdent sauf qu'ici on rajoute le buzzer sur la pin 16 et on demande de faire fonctionner le buzzer si il fait plus de 30°C ou il y a moins de 30% d'humidité lu par le capteur. On fait cela à l'aide de if dans le while pour pouvoir lire la valeur toute les 0.8 secondes. (Pour la vidéo la température max à été mis à 21.9°C)
+Avec le programme : [Alarm_temp_or_hum](Alarm_temp_or_hum.py), on fait exactement la même chose que le programme précèdent sauf qu'ici on rajoute le buzzer sur la pin 16 et on demande de faire fonctionner le [buzzer](https://github.com/HEPL-Starygin/smartcities/tree/main/AD-PWM) si il fait plus de 30°C ou il y a moins de 30% d'humidité lu par le capteur. On fait cela à l'aide de if dans le while pour pouvoir lire la valeur toute les 0.8 secondes. (Pour la vidéo la température max à été mis à 21.9°C)
 
 
 https://user-images.githubusercontent.com/124890653/229843503-73bc6ada-d563-4b9b-aa18-86a17cb54f5d.mp4
+
 
