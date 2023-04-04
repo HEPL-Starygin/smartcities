@@ -46,4 +46,12 @@ Pour pouvoir l'afficher on assigne le capteur à la pin ADC(0) et on lira ces va
 
 https://user-images.githubusercontent.com/124890653/229862862-677bbb73-1c98-4c3e-83aa-d91e767be3b1.mp4
 
+## Intelligent light
+
+Avec le programme : [intelligent_light_kit_light_and_sound_sensor_and_rgb](intelligent_light_kit_light_and_sound_sensor_and_rgb.py), on va utiliser le capteur de lumière et de son pour pouvoir faire une lumière "intelligente" avec la led rgb en fonction des valeurs obtenues des 2 capteurs. Pour savoir comment utiliser le rgb clicker [ici](https://github.com/HEPL-Starygin/smartcities/tree/main/LED_NEO)
+
+Le fonctionnement des 2 capteurs est le même que les programmes précèdents, il suffit juste de fusionner les 2 codes des 2 capteurs et de mettre à la fin du while True des if et else en fonction de ce qu'on veut. Ici, on a voulu que la led soit blanche si la lumière détecté est inférieur à 50 et si elle ne l'est pas on regarde si le son est plus grand ou égal à 50 pour que la led soit rouge, si c'est entre 25 et 49 elle sera jaune et si le son est plus petit que 25 elle sera verte. 
+
+
+https://user-images.githubusercontent.com/124890653/229868209-40f6665b-2cc1-4b39-8099-17a5df7d3291.mp4
 
