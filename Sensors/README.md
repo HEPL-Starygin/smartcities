@@ -63,3 +63,11 @@ Pour cela, on configure la pin qu'on utilise comme entrée puis on fait une bouc
 
 https://user-images.githubusercontent.com/124890653/230094017-1a0583cd-c172-4ede-b02b-f9d280123a06.mp4
 
+## Detection light
+
+Avec le programme : [Pir_LED](Pir_LED.py), on peut allumer une led pendant 10 sec si le PIR detecte un mouvement.
+Le fonctionnement est le même que le programme précèdent pour le Pir et pour allumer ou éteindre la led on se sert de "led.value(x)" où x permet de choisir entre l'état haut ou bas pour allumer ou éteindre la led.
+
+
+https://user-images.githubusercontent.com/124890653/230100423-746d7db2-e311-4489-b2a1-305fcee4ed89.mp4
+
