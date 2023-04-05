@@ -39,7 +39,7 @@ Pour pouvoir l'afficher on assigne le capteur à la pin ADC(1) et on lira ces va
 
 https://user-images.githubusercontent.com/124890653/229855739-93094a1f-fb61-45c5-9551-48639ab733eb.mp4
 
-## Light snesor                                                       
+## Light sensor                                                       
 
 Avec le programme : [Kit_light](Kit_light.py), on affiche dans l'IDE de la lumière obtenue par le capteur de lumière.                                        
 Pour pouvoir l'afficher on assigne le capteur à la pin ADC(0) et on lira ces valeurs sous 16 bits non signés à l'aide de Light_SENSOR.read_u16() qu'on va diviser par 256 pour les prochains code. Et il suffit juste d'afficher cette valeur à l'aide du print.
