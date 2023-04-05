@@ -55,3 +55,7 @@ Le fonctionnement des 2 capteurs est le même que les programmes précèdents, i
 
 https://user-images.githubusercontent.com/124890653/229868209-40f6665b-2cc1-4b39-8099-17a5df7d3291.mp4
 
+## Pir
+Le Pir est un détecteur de mouvement qui va envoyer un "1" lorsqu'il détecte un mouvement.     
+Avec le programme : [Kit_PIR](Kit_PIR.py), on regarde toute les 10 secondes la valeur de Pir pour savoir si elle a detecté un mouvement.                                             
+Pour cela, on configure la pin qu'on utilise comme entrée puis on fait une boucle infinie avec while True et on affiche la valeur de Pir dans l'IDE avec le print toute les 10 sec avec le "sleep". On affiche toute les 10 sec car lorsqu'il detecte un mouvement il lui faut un peu de temps pour qu'il recommence à envoyer des "0" au lieu des "1".
