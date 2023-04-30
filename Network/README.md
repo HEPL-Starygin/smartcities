@@ -10,6 +10,10 @@ Avec le programme : [NTP](NTP.py), on se connecte au wifi qu'on a sélectionné 
 
 Attention au changement d'heure, il ne se fait pas automatiquement. Si on est en hiver, on est en UTC+1 et faudra mettre un offset de 1h soit 3600sec alors qu'avec l'heure d'été on est à UTC+2 et on a un offset de 2h soit 7200sec.
 
+
+https://user-images.githubusercontent.com/124890653/235372412-4d9cff32-cb07-4165-bab7-266e26e2b92a.mp4
+
+
 ## OpenWeatherMap
 
 OpenweatherMap est une API où l'on peut faire 1000 requête gratuitement par jour pour recevoir la météo d'un endroit spécifique (région,pays ou même selon la longitude et latitude).
