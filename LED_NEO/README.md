@@ -18,5 +18,10 @@ Pour cela, le fonctionnement est le même que le programme précèdent sauf qu'i
 
 https://user-images.githubusercontent.com/124890653/230112802-05ce552a-6533-4b07-a7f9-595b9fcdfcd9.mp4
 
-## Intelligent light                               
+## Intelligent light 1                                
 Cette partie à déjà été écrite [ici](https://github.com/HEPL-Starygin/smartcities/tree/main/Sensors)
+
+## Intelligent light 2
+
+Avec le programme : [intelligent_light_kit_light_and_PIR_and_rgb](intelligent_light_kit_light_and_PIR_and_rgb.py), on allume la lumière de la led lorsqu'il y a detection de mouvement avec le PIR puis fais une moyenne de 5 valeur capté par le detecteur de lumière enregistré dans une liste car la valeur varie trop. Après, on augmente/diminue la valeur de luminosité par pas de 0.01 pour qu'elle s'allume/s'éteint petit à petit au lieu de passer à par exemple de 10% de luminosité à 100% d'un coup ou l'inverse.                                                                                                
+
