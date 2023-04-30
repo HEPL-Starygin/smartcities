@@ -25,3 +25,8 @@ Cette partie à déjà été écrite [ici](https://github.com/HEPL-Starygin/smar
 
 Avec le programme : [intelligent_light_kit_light_and_PIR_and_rgb](intelligent_light_kit_light_and_PIR_and_rgb.py), on allume la lumière de la led lorsqu'il y a detection de mouvement avec le PIR puis fais une moyenne de 5 valeur capté par le detecteur de lumière enregistré dans une liste car la valeur varie trop. Après, on augmente/diminue la valeur de luminosité par pas de 0.01 pour qu'elle s'allume/s'éteint petit à petit au lieu de passer à par exemple de 10% de luminosité à 100% d'un coup ou l'inverse.                                                                                                
 
+Dans la vidéo on se rend pas trop compte de la  différence de luminosité (j'ai éteint la lumière et utilisé la lumière de la led pour augmenter la valeur lue par le capteur de lumière car ca se voyait mieux en vidéo)
+
+
+https://user-images.githubusercontent.com/124890653/235371460-a009dedf-0b03-402f-b500-05016e9388a9.mp4
+
