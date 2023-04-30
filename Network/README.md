@@ -19,3 +19,7 @@ https://user-images.githubusercontent.com/124890653/235372412-4d9cff32-cb07-4165
 OpenweatherMap est une API où l'on peut faire 1000 requête gratuitement par jour pour recevoir la météo d'un endroit spécifique (région,pays ou même selon la longitude et latitude).
 
 Avec le programme : [openweathermap_wifi](openweathermap_wifi.py), le fonctionnement pour se connecter via le wifi est pareil que le code précédent. Dans ce prograramme, on se sert de l'URL de base du site pour avoir les données puis on lui rajoute des paramètres pour spécifier la météo de quelle région on veut et sélectionner quelle type de données on veut (metric) et il faut rajouter aussi sa clé pour pouvoir avoiraccès aux données. Ensuite, on envoie une requête à cette URL pour recevoir les données de la météo qu'on mettra dans un dictionnaire pour se faciliter. Et on affiche à la fin les données que l'on souhaite.
+
+
+https://user-images.githubusercontent.com/124890653/235372501-691827c9-c37f-4f7d-addd-38f512e96ed0.mp4
+
